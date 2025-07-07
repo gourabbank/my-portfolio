@@ -58,7 +58,7 @@ const works = [
   {
     title: "Attendance System using AWS Cloud",
     tags: ["AWS", "Cloud Computing", "MySQL", "Python", "Cloud Database"],
-    projectLink: "", // add link if hosted
+    projectLink: "https://github.com/gourabbank/DigitalAttendanceSystem", // add link if hosted
     description:
       "Created a cloud-based attendance tracker using AWS with real-time updates; integrated user check-ins with cloud databases for centralized access."
   },
