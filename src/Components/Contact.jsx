@@ -35,21 +35,23 @@ const Contact = () => {
   const [status, setStatus] = useState('');
 
   const sendEmail = (e) => {
-    e.preventDefault();
-    setStatus('');
-    emailjs.sendForm(
-      'service_2ohslmh',
-      'template_robgzs1',
-      form.current,
-      'ge0UqriZ3Q1JpCrm3'
-    )
-    .then((result) => {
-      setStatus('Message sent successfully!');
-      form.current.reset();
-    }, (error) => {
-      setStatus('Failed to send message. Please try again.');
-    });
-  };
+  e.preventDefault();
+  setStatus('');
+  emailjs.sendForm(
+    'service_6fyxmne',          // ✅ Service ID from EmailJS
+    'template_robgzs1',         // ✅ Template ID
+    form.current,
+    'ge0UqriZ3Q1JpCrm3'         // ✅ Public Key
+  )
+  .then((result) => {
+    console.log("✅ Email sent:", result.text);
+    setStatus('Message sent successfully!');
+    form.current.reset();
+  }, (error) => {
+    console.error("❌ EmailJS Error:", error); // 👈 Log the real error
+    setStatus('Failed to send message. Please try again.');
+  });
+};
 
   return (
     <section
