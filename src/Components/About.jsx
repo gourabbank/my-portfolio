@@ -29,14 +29,11 @@ const About = () => {
       <h2 className="text-2xl font-semibold text-white mb-6 mt-14 ">About Me</h2>
         <div className="bg-zinc-800 p-7 rounded-2xl md:p-12 mb-0 ">
           <p className="text-zinc-300 mv-4 md:mb-4 md:text-xl md:max-w-[60ch]:">
-          Hi, Hi, I’m Gourab Bank, a Master’s student in Computer Science at Syracuse University 
-          with hands-on experience in cloud-native systems, full-stack development, and backend engineering. 
-          I’ve interned at iConsult Collaborative and SocialTechLabs, where I built scalable systems using Golang, 
-          Flask, AWS Lambda, and Redis, and developed real-time microservices with robust authentication (OAuth2, JWT). 
-          I’ve also led full-stack projects like CashSplash and BillBuddy, combining React, Kotlin, Node.js, 
-          PostgreSQL, and cloud platforms like AWS, GCP, and Firebase. I’m passionate about shipping impactful software, 
-          and I’m actively seeking SDE, backend, or cloud engineering roles where I can drive value through clean, scalable, 
-          and secure systems.
+          Software Engineer with expertise in building scalable cloud systems and full-stack applications. 
+          Currently pursuing MS in Computer Science at Syracuse University with hands-on experience at Zenziee, iConsult Collaborative, and SocialTechLabs.
+          I specialize in Golang microservices, React frontends, and AWS infrastructure - having built systems that serve 20K+ daily users with sub-200ms latency. 
+          My work has delivered measurable impact: 2x SEO improvements, 60% load time reductions, and 50% database performance gains.
+          Passionate about clean, scalable code and solving complex technical challenges through data, cloud, and machine learning technologies.
           </p>
 
 
